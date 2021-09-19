@@ -1,4 +1,5 @@
 import 'package:centro_de_actividades/routes/routes.dart';
+import 'package:centro_de_actividades/utils/constant.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -12,8 +13,9 @@ class MyApp extends StatelessWidget {
       initialRoute: 'login',
       routes: getAplicationRoutes(),
       theme: ThemeData.light().copyWith(
+        primaryColor: kPrimaryColor,
         appBarTheme: AppBarTheme(
-          color: Color.fromRGBO(25, 118, 210, 1),
+          color: kPrimaryColor,
           elevation: 0,
           centerTitle: true,
         ),
