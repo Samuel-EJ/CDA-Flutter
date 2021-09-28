@@ -7,9 +7,12 @@ class AssignatureScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        child: Center(
-          child: Text('Asignatures Screen'),
-        ),
+        child: Column(children: [
+          Text('hola mundo'),
+          Text('hola mundo'),
+          Text('hola mundo'),
+          Text('hola mundo'),
+        ],),
       ),
     );
   }
